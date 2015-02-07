@@ -31,5 +31,5 @@ client.a(my_modular_arith.o): sources/my_modular_arith.c headers/my_modular_arit
 clean:
 	rm *.o
 
-#tar:
-#tar -cvf client.tar $(SOURCES) $(HEADERS) Makefile client.a
+tar:
+	tar -cvf client.tar $(SOURCES) $(HEADERS) Makefile client.a
